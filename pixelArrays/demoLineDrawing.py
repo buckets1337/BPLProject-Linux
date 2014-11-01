@@ -38,10 +38,9 @@ class pixelArray():
 		'''
 		creates the picture with a series of pygame calls
 		'''
-		pygame.draw.circle(self.surf, self.YELLOW, (32,32), 28, width=0)		#outside circle, filled in yellow
-		pygame.draw.circle(self.surf, CONFIG.BLACK, (32,36), 24, width=1)		#circle that will form the mouth, colored black
-		rect = pygame.Rect(2,10,62,36)											#rectangle used below
-		pygame.draw.rect(self.surf, self.YELLOW, rect, width=0)					#yellow rectangle covering half of the mouth circle
-		pygame.draw.line(self.surf, CONFIG.BLACK, (18,14), (18,24), width=1)	#left eye, in black
-		pygame.draw.line(self.surf, CONFIG.BLACK, (45,14), (45,24), width=1)	#rigth eye, in black
+		pygame.draw.circle(self.surf, self.YELLOW, (32,32), 28, 0)		#outside circle, filled in yellow
+		rect = pygame.Rect(10,5,44,49)
+		pygame.draw.arc(self.surf, CONFIG.BLACK, rect, 3.66, 5.76, 1)		#circle that will form the mouth, colored black
+		pygame.draw.line(self.surf, CONFIG.BLACK, (18,14), (18,24), 1)	#left eye, in black
+		pygame.draw.line(self.surf, CONFIG.BLACK, (45,14), (45,24), 1)	#rigth eye, in black
 
