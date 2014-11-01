@@ -15,7 +15,7 @@ pygame.init()
 
 
 
-class exampleArray():
+class pixelArray():
 	'''
 	This is an example of a pixelArray object.  This would be used in the game as your player portrait
 	'''

@@ -10,16 +10,16 @@
 
 playerList = (
 
-['justin', 'players/Justin_Lomelino.jpg', None],
-['john', 'players/Jon_Whited_IT_Manager.jpg', None],
-['kerrie', 'players/Kerrie_Parker_Webmaster.jpg', None],
-['joe', None, 'demoPixelArray'],
-['bill', None, None],
-['Paul', 'players/Paul_Short.jpg', None],
-['henry', 'players/Henry_Birmingham.jpg', None],
-['devon', 'players/Volunteer_Devon_Phifer.jpg', None],
-['tina', None, None],
-['claudette', None, None],
-['dog?', None, None]
+['Lando', None, 'demoLineDrawing'],
+['Vader', None, None],
+['Palpatine', None, None],
+['R2D2', None, 'demoPixelArray'],
+['Luke', None, None],
+['Han', None, None],
+['Chewbacca', None, None],
+['3-CPO', None, None],
+['Leia', None, None],
+['Jabba', None, None],
+['Boba Fett', None, None]
 
 )

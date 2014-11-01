@@ -111,7 +111,7 @@ class Avatar():
             self.tinyImage = pygame.transform.scale(self.image, (32, 32))
         else:
             pixelArrayList = self.FileLoader.loadPixelArrays(pixelArrayLocation)
-            self.imageObj = pixelArrayList[pixelArray].exampleArray()
+            self.imageObj = pixelArrayList[pixelArray].pixelArray()
             self.image = self.imageObj.surf
             self.image.convert()
             self.image = pygame.transform.scale(self.image, (64,64))
