@@ -5,8 +5,8 @@ SCREEN_SIZE = width,height = 1024,768
 IMAGE_PATH = 'Pictures/'
 WEAPON_PATH = 'Weapons'
 PIXEL_ARRAY_PATH = 'pixelArrays'
-RED_TEAM_PATH = 'redTeam.txt'
-BLUE_TEAM_PATH = 'blueTeam.txt'
+RED_TEAM_PATH = 'exterminator.txt'
+BLUE_TEAM_PATH = 'team1.txt'
 
 BLACK = (0,0,0)
 WHITE = (255,255,255)
@@ -25,5 +25,5 @@ BASE_EVASION = 35.0
 
 ##### WEAPON REGISTER #####
 # weapons must be in this list to be used in the game.
-WEAPON_REGISTER = [None, 'SlugGun', 'MachineGun', 'Mortar']
+WEAPON_REGISTER = [None, 'SlugGun', 'MachineGun', 'Mortar', 'LightningGun', 'ArrowVolley', 'MP7', 'ccinator', 'WaterGun', 'PARHANATANK' ]
 

@@ -10,16 +10,12 @@
 
 playerList = (
 
-['Lando', None, 'demoLineDrawing'],
-['Vader', None, None],
-['Palpatine', None, None],
-['R2D2', None, 'demoPixelArray'],
-['Luke', None, None],
-['Han', None, None],
-['Chewbacca', None, None],
-['3-CPO', None, None],
-['Leia', None, None],
-['Jabba', None, None],
-['Boba Fett', None, None]
+['SpeedSter', 'players/lightning.jpg', None],
+['ELEPHANT', 'players/ele.jpg', None],
+['Acro', 'players/edward.jpg', None],
+['cc', 'players/gun.jpg', None],
+['Comander','players/army.jpg',None],
+['acro', 'players/gun.jpg', None],
+
 
 )

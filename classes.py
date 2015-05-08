@@ -141,6 +141,18 @@ class Avatar():
                 newWeapon = weaponDefList['MachineGun'].MachineGun()
             elif weapon == 'Mortar':
                 newWeapon = weaponDefList['Mortar'].Mortar()
+            elif weapon == 'LightningGun':
+                newWeapon = weaponDefList['LightningGun'].LightningGun()
+            elif weapon == 'ArrowVolley':
+                newWeapon = weaponDefList['ArrowVolley'].ArrowVolley()
+            elif weapon == 'MP7':
+                newWeapon = weaponDefList['MP7'].MP7()
+            elif weapon == 'ccinator':
+                newWeapon = weaponDefList['ccinator'].ccinator()
+            elif weapon == 'WaterGun':
+                newWeapon = weaponDefList['WaterGun'].WaterGun()
+            elif weapon == 'PARHANATANK':
+                newWeapon = weaponDefList['PARHANATANK'].PARHANATANK()
 
             elif weapon == 'None' or weapon == None:
                 newWeapon = None
